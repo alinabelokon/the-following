@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/ali_map"
+        android:layout_width="match_parent"
+        android:layout_height="478dp"
+        class="com.google.android.gms.maps.MapFragment" />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+
+        <Button
+            android:id="@+id/MiddlePointBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Set MidPoint" />
+        <Button
+            android:id="@+id/DelMidPoint"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Remove MidPoint"
+            />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

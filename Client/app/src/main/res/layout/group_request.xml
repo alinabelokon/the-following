@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/AcceptGroupReq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="165dp"
+        android:text="Accept" />
+
+    <Button
+        android:id="@+id/DenyGroupReq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/AcceptGroupReq"
+        android:layout_marginLeft="63dp"
+        android:layout_marginStart="63dp"
+        android:layout_toEndOf="@+id/AcceptGroupReq"
+        android:layout_toRightOf="@+id/AcceptGroupReq"
+        android:text="Deny" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/DenyGroupReq"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/DenyGroupReq"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="66dp"
+        android:text="Do you want to be in a group?" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/AcceptGroupReq"
+        android:layout_alignStart="@+id/AcceptGroupReq"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="12dp"
+        android:text="TextView" />
+</RelativeLayout>
